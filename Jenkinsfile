@@ -18,13 +18,8 @@ pipeline {
             steps {
                 sh 'npm install' 
             }
-<<<<<<< HEAD
         } 
         stage('Test') {
-=======
-        }
-        stage('Test') { 
->>>>>>> 8e18c81 (add string sleep123348e)
             steps {
                 sh './jenkins/scripts/test.sh' 
             }
